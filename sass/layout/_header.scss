@@ -15,11 +15,11 @@
   line-height: 1.19;
   margin-right: 93px;
 }
-.accent {
+.logo__accent {
   color: var(--accent-color);
 }
 /* nav */
-.nav-link {
+.site-nav__link {
   padding-top: 33.6px;
   padding-bottom: 33.6px;
   color: var(--title-text-color);
@@ -34,7 +34,7 @@
     color: var(--accent-color);
   }
 }
-.current {
+.site-nav__current {
   color: var(--accent-color);
   &::after {
     content: '';
@@ -50,11 +50,11 @@
 .site-nav {
   display: flex;
 }
-.nav-item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 /* contacts */
-.contacts-icon {
+.contacts-item__icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -65,7 +65,7 @@
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
-.contacts-link {
+.contacts-item__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
