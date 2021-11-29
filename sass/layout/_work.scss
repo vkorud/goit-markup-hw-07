@@ -1,0 +1,30 @@
+.work-section {
+  padding-top: 0px;
+}
+.work-title {
+  margin-bottom: 50px;
+}
+.work {
+  display: flex;
+}
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
+.work-item {
+  position: relative;
+}
+.work-example {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
